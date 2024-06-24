@@ -515,7 +515,6 @@ a:focus {
 
 .section-title-white .vertical-line span i:before {
   margin: 0;
-  font-size: 65px;
   color: #fff;
   opacity: 0.4;
 }
@@ -2064,7 +2063,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/gallery/DSC02189.JPG") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
@@ -2290,6 +2289,9 @@ a:focus {
   visibility: hidden;
 }
 .event .img-holder img {
+  width: 100%;
+}
+.event .img-holder video {
   width: 100%;
 }
 
@@ -2792,6 +2794,11 @@ a:focus {
 }
 
 .story-section .video-holder {
+  position: relative;
+}
+
+.story-section .video-holder .video {
+  width: 100%;
   position: relative;
 }
 
