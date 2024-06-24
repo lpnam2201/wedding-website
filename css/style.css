@@ -4260,6 +4260,9 @@ a:focus {
 }
 .modal-content {
   text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
 }
 .btn-gift {
   display: inline-flex;
@@ -4276,6 +4279,17 @@ a:focus {
   font-size: 18px;
   text-decoration: none;
   transition: background-color 0.3s, border-color 0.3s;
+}
+.modal-body {
+  width: 70%;
+  height: 70%;
+}
+.modal-header {
+  border: none;
+  padding: 0;
+}
+.modal-header .btn-close {
+  background-color: #ffffff;
 }
 
 .btn-gift:hover {

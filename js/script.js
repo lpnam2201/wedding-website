@@ -467,11 +467,11 @@
             },
 
             messages: {
-                name: "Please enter your name",
-                email: "Please enter your email",
-                extras: "Select your number of guest",
+                name: "Xin hãy nhập tên",
+                email: "Xin hãy nhập địa chỉ email",
+                extras: "Xin hãy chọn số lượng người đi cùng",
                 invite_code: {
-                    required: "Please enter your invite code",
+                    required: "Xin hãy xác nhận là bạn của cô dâu, chú rể",
                     validInviteCode: "Invite code must be either 220198 or 291299." 
                 }
             },

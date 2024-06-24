@@ -316,7 +316,7 @@
                         </div>
                         <div class="event">
                             <div class="img-holder">
-                                <img src="images/img-2_2.jpg" alt="" class="img img-fluid">
+                                <img src="images/gallery/wedding-party.png" alt="" class="img img-fluid">
                             </div>
                             <div class="details">
                                 <h3>Lễ Thành Hôn</h3>
@@ -467,6 +467,7 @@
                             <div class="col-md-6 mb-4">
                                 <select class="form-control" name="extras">
                                     <option disabled="" selected="">Số lượng khách đi cùng*</option>
+                                    <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -513,16 +514,16 @@
                     <div class="col col-lg-6">
                         <div class="img-holder row justify-content-center">
                             <img src="images/gallery/DSC02796.JPG" alt="" class="img img-fluid">
-                            <a href="javascript:void(0);" class="btn-gift" onclick="showQRCode('groom')">
-                                <i class="fa fa-gift"></i> Gửi quà mừng cho chú rể
+                            <a href="javascript:void(0);" class="btn-gift text-center" onclick="showQRCode('groom')">
+                                <i class="fa fa-gift"></i> Gửi quà mừng chú rể
                             </a>
                         </div>
                     </div>
                     <div class="col col-lg-6">
                         <div class="img-holder row justify-content-center">
                             <img src="images/gallery/DSC02561.JPG" alt="" class="img img-fluid">
-                            <a href="javascript:void(0);" class="btn-gift" onclick="showQRCode('bride')">
-                                <i class="fa fa-gift"></i> Gửi quà mừng cho cô dâu
+                            <a href="javascript:void(0);" class="btn-gift text-center" onclick="showQRCode('bride')">
+                                <i class="fa fa-gift"></i> Gửi quà mừng cô dâu
                             </a>
                         </div>
                     </div>
@@ -534,14 +535,11 @@
         <div class="modal fade" id="qrCodeModal" tabindex="-1" role="dialog" aria-labelledby="qrCodeModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="qrCodeModalLabel">QR Code for Gift</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
                     <div class="modal-body">
                         <img id="qrCodeImage" src="" alt="QR Code" class="img img-fluid">
+                    </div>
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                 </div>
             </div>
@@ -577,6 +575,7 @@
     <!-- Plugins for this template -->
     <script src="js/jquery-plugin-collection.js"></script>
     <script src="js/jquery.mb.YTPlayer.src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>
